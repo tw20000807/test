@@ -1,0 +1,14 @@
+{
+    "name": "guess",
+    "code": "guess",
+    "title": "guess_number",
+    "type": "Communication",
+    "has_checker" : true,
+    "grader_name" : "stub",
+    "has_grader": true,
+    "java_enabled": false,
+    "python_enabled": false,
+    "time_limit": 1.0,
+    "memory_limit": 256,
+    "description": "Task description"
+}

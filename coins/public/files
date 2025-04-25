@@ -1,0 +1,9 @@
+public cpp/compile_cpp.sh
+public cpp/run_cpp.sh
+public cpp/coin_flips.cpp
+public cpp/coin_flips.h
+public cpp/find_coin.cpp
+public cpp/find_coin.h
+
+
+public examples/01.in
