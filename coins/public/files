@@ -4,6 +4,7 @@ public cpp/coin_flips.cpp
 public cpp/coin_flips.h
 public cpp/find_coin.cpp
 public cpp/find_coin.h
+public cpp/grader.cpp
 
 
 public examples/01.in

@@ -2,7 +2,7 @@
 
 problem="coins"
 memory=262144 # 256MB
-stack_size=2097152  # 2GB
+stack_size=262144  # 256MB
 
 ulimit -v "${memory}"
 ulimit -s "${stack_size}"

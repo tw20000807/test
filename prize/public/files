@@ -1,0 +1,7 @@
+public cpp/compile_cpp.sh
+public cpp/grader.cpp
+public cpp/prize.h
+public cpp/prize.cpp
+
+public examples/01.in
+

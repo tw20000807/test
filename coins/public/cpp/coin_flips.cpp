@@ -1,4 +1,4 @@
-#include "coin_flips.h"
+#include<vector>
 
 std::vector<int> coin_flips(std::vector<int> b, int c) {
     std::vector<int> flips(1);

@@ -3,7 +3,6 @@
     "code": "guess",
     "title": "guess_number",
     "type": "Communication",
-    "has_checker" : true,
     "grader_name" : "stub",
     "has_grader": true,
     "java_enabled": false,

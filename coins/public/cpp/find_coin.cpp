@@ -1,4 +1,4 @@
-#include "find_coin.h"
+#include<vector>
 
 int find_coin(std::vector<int> b) {
     if (b[0] == 0) {

@@ -1,6 +1,7 @@
 #include "guess.h"
 #include <cassert>
 #include <cstdio>
+#include <cstdlib>
 int l, r, tar, q_count = 0;
 int ask(char type, int i){
 	if(type == '?'){
@@ -9,7 +10,7 @@ int ask(char type, int i){
 	}
 	else if(type == '!'){
 		if(i == tar) printf("OK\nYou use %d times\n", q_count);
-		else printf("WA\nYou guess Wrong");
+		else printf("WA\nYou guess %d, but ans is %d\n", i, tar);
 		exit(0);
 	}
 	else{

@@ -2,12 +2,11 @@
 #include <cassert>
 #include <fstream>
 #include <iostream>
-#include <cstdio>
 using namespace std;
 ifstream fin;
 ofstream fout;
-int ask(char type, int i){
-	fout << type << " " << i << endl;
+int ask(int i){
+	fout << "? " << i << endl;
 	int x;
 	fin >> x;
 	return x;
@@ -15,9 +14,9 @@ int ask(char type, int i){
 int main(int argc, char *argv[]) {
 	fin.open(argv[1]);
 	fout.open(argv[2]);
-	cerr << "OKOK\n";
 	int l, r;
 	fin >> l >> r;
-	guess(l, r);
+	int tar = guess(l, r);
+	fout << "! " << tar << endl;
 	return 0;
 }
