@@ -117,7 +117,7 @@ The sample grader is not adaptive.
 Instead, it just reads and uses a fixed array $p$ of prize types. For all $0 \leq b \leq n-1$, the type of the prize in box $b$ is given as $p[b]$.
 The sample grader expects input in the following format:
 
-- line $1$: $\;\; n$
-- line $2$: $\;\; p[0] \;\; p[1]  \; \ldots \; p[n-1]$
+- line $1$: $n$
+- line $2$: $p[0]$ $p[1]$  $\ldots$ $p[n-1]$
 
 The sample grader prints a single line containing the return value of `find_best` and the number of calls to the procedure `ask`.

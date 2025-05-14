@@ -60,8 +60,8 @@ Your score will be $0$ if the return value of `find_cup()` is incorrect for any 
 ## Sample grader
 
 The sample grader reads the input in the following format:
-* line $1$: $\;\;T$
-* line $2 + i$ (for $0 \le i \le T-1$): $\;\;a[i]\;\;b[i]$
+* line $1$: $T$
+* line $2 + i$ (for $0 \le i \le T-1$): $a[i]$ $b[i]$
 
 For each scenario, the sample grader prints a single integer in a separate line: the number of calls to `ask_shahrasb()` in the scenario, or $-1$ if the return value of `find_cup()` was incorrect.
 

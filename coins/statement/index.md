@@ -50,6 +50,8 @@ In the first program, procedure `coin_flips` is called once for each scenario. I
 1. ($15$ points) $k = 8$ 
 1. ($50$ points) $k = 1$ 
 
+<div style="page-break-after: always"></div>
+
 ## Example
 
 Suppose the sisters decide that Arnavaz only flips the cursed coin and Shahrnaz reports the position of one of the coins with tails facing up, or $0$ if there is no such coin. Clearly, this is just an example, not a correct strategy.
@@ -69,9 +71,9 @@ This procedure returns $63$, and it is the correct position of the cursed coin.
 ## Sample Grader
 
 The sample grader reads the input in the following format:
-* line $1$: $\;\;T$
+* line $1$: $T$
 * block $i$ (for $0 \leq i \leq T-1$): a block of  $9$ lines, representing scenario $i$.
-  - line $1$:  $\;\;c$
+  - line $1$:  $c$
   - line $2+j$ (for $0 \leq j \leq 7$): a binary (`0`/`1`) string of length $8$ representing row $j$ of table $b$
 
 The sample grader writes the output in the following format:
