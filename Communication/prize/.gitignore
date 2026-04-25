@@ -28,7 +28,7 @@
 # Executables
 *.exe
 *.app
-*.out
+# *.out
 # Except public directory
 !/public/**/*.out
 

@@ -1,6 +1,5 @@
 /sandbox/
 /tests/
-!/public/tests
 /logs/
 
 # C++.gitignore
