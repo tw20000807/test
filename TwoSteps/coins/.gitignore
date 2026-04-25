@@ -1,5 +1,6 @@
 /sandbox/
 /tests/
+!/public/tests
 /logs/
 
 # C++.gitignore
@@ -28,7 +29,7 @@
 # Executables
 *.exe
 *.app
-*.out
+# *.out
 # Except public directory
 !/public/**/*.out
 
